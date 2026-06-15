@@ -1,18 +1,23 @@
 {
+  "total_runs": 16,
   "ticker_totals": {
-    "IWM": 14,
-    "SPY": 14,
-    "SMH": 12,
-    "MSFT": 11,
+    "IWM": 16,
+    "SPY": 15,
+    "MSFT": 13,
+    "SMH": 11,
     "V": 11,
-    "NVDA": 9,
-    "QQQ": 7,
-    "AMD": 2,
+    "NVDA": 11,
+    "QQQ": 6,
+    "AMD": 4,
     "XLK": 2,
+    "GOOGL": 2,
+    "MU": 1,
     "AVGO": 1,
-    "AAPL": 1,
-    "ON": 1,
-    "XLV": 1
+    "SOXX": 1,
+    "XLV": 1,
+    "XLF": 1,
+    "MA": 1,
+    "AAPL": 1
   },
   "by_prompt": {
     "opus": {
@@ -22,38 +27,47 @@
       "SPY": 4,
       "V": 4,
       "SMH": 3,
+      "AMD": 1,
       "QQQ": 1,
-      "AAPL": 1,
-      "ON": 1
+      "MA": 1,
+      "AAPL": 1
     },
     "gpt": {
       "IWM": 4,
-      "QQQ": 4,
       "SPY": 4,
       "V": 4,
-      "SMH": 3,
+      "QQQ": 3,
       "NVDA": 2,
       "AMD": 2,
+      "SMH": 2,
+      "MSFT": 1,
+      "GOOGL": 1,
+      "MU": 1,
       "AVGO": 1,
+      "SOXX": 1,
       "XLK": 1,
       "XLV": 1
     },
     "gemini": {
-      "MSFT": 3,
-      "IWM": 3,
+      "MSFT": 4,
+      "IWM": 4,
+      "SPY": 3,
       "SMH": 3,
-      "SPY": 2,
       "QQQ": 2,
       "V": 1,
+      "NVDA": 1,
+      "AMD": 1,
       "XLK": 1
     },
     "grok": {
+      "NVDA": 4,
       "MSFT": 4,
+      "IWM": 4,
       "SPY": 4,
-      "NVDA": 3,
-      "IWM": 3,
       "SMH": 3,
-      "V": 2
+      "V": 2,
+      "GOOGL": 1,
+      "XLF": 1
     }
   },
   "by_model": {
@@ -66,19 +80,23 @@
       "V": 3,
       "QQQ": 2,
       "XLK": 1,
-      "ON": 1,
       "XLV": 1
     },
     "gpt55": {
-      "SPY": 3,
-      "NVDA": 2,
-      "MSFT": 2,
-      "IWM": 2,
-      "QQQ": 2,
-      "SMH": 2,
+      "NVDA": 4,
+      "MSFT": 4,
+      "IWM": 4,
+      "SPY": 4,
+      "AMD": 3,
+      "GOOGL": 2,
       "V": 2,
-      "AMD": 1,
-      "AVGO": 1
+      "MU": 1,
+      "AVGO": 1,
+      "SOXX": 1,
+      "XLF": 1,
+      "QQQ": 1,
+      "SMH": 1,
+      "MA": 1
     },
     "gemini": {
       "IWM": 4,
@@ -103,19 +121,16 @@
     }
   },
   "strategies": {
-    "spread": 14,
-    "LEAPS": 13,
-    "LEAP": 13,
-    "call spread": 11,
-    "bull call": 10,
+    "LEAPS": 15,
+    "spread": 15,
+    "call spread": 12,
     "credit spread": 10,
-    "put spread": 9,
+    "bull call": 9,
+    "put spread": 8,
+    "shares": 8,
     "covered call": 7,
-    "shares": 7,
     "cash": 5,
-    "diagonal": 4,
+    "diagonal": 5,
     "PMCC": 3
-  },
-  "total_runs": 16,
-  "note": "gemini-on-gpt55 missing (GPT 5.5 returned empty on OpenRouter)"
+  }
 }
